@@ -54,29 +54,28 @@
             android:text="Rise Against"
             android:textColor="#fff" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dip">
+            android:padding="10dp">
 
             <ImageView
                 android:id="@+id/menu"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_margin="5dp"
                 android:src="@drawable/menubutton" />
 
             <Spinner
                 android:id="@+id/menu_spinner"
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#fff"
+                android:background="@android:color/darker_gray"
                 />
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/track_info"
+            android:id="@+id/buy_track"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
@@ -85,12 +84,12 @@
             android:src="@drawable/dollarbuttton" />
 
         <ImageView
-            android:id="@+id/buy_track"
+            android:id="@+id/track_info"
             android:layout_width="30dp"
             android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/threedot" />
 
         <ImageView

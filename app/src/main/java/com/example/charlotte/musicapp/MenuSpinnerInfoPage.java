@@ -15,11 +15,11 @@ import java.util.List;
  * Created by dnj on 9/21/16.
  */
 
-public class MenuSpinner extends Activity implements OnItemSelectedListener{
+public class MenuSpinnerInfoPage extends Activity implements OnItemSelectedListener{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_info_page);
 
         // Spinner element
         Spinner menuSpinner = (Spinner) findViewById(R.id.menu_spinner);
@@ -31,7 +31,7 @@ public class MenuSpinner extends Activity implements OnItemSelectedListener{
         List<String> categories = new ArrayList<String>();
         categories.add("GO TO:");
         categories.add("HOME");
-        categories.add("TRACK INFO");
+        categories.add("JAMMIN\'");
         categories.add("STATIONS");
         categories.add("FAVORITES");
         categories.add("PURCHASES");
@@ -53,11 +53,11 @@ public class MenuSpinner extends Activity implements OnItemSelectedListener{
         String item = parent.getItemAtPosition(position).toString();
 
         if (position == 1){
-            Intent toHome = new Intent(MenuSpinner.this, HomePage.class);
+            Intent toHome = new Intent(MenuSpinnerInfoPage.this, HomePage.class);
             startActivity(toHome);
         } else if (position == 2){
-            Intent toInfo = new Intent(MenuSpinner.this, InfoPageActivity.class);
-            startActivity(toInfo);
+            Intent toJamm = new Intent(MenuSpinnerInfoPage.this, MainActivity.class);
+            startActivity(toJamm);
         }
 
     }

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.charlotte.musicapp.HomePage"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#80cbc4" />
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#000"
+        android:text="HOME"
+        android:textColor="#80cbc4"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/resumeJamm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#fff"
+        android:text=">>   Back to Jammin\'"
+        android:textColor="#80cbc4"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+    <TextView
+        android:id="@+id/savedStations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#80cbc4"
+        android:text=">>   Saved Stations"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+    <TextView
+        android:id="@+id/newStation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#fff"
+        android:text=">>   Create New Station"
+        android:textColor="#80cbc4"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+    <TextView
+        android:id="@+id/favorites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#80cbc4"
+        android:text=">>   Manage Favorites"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+    <TextView
+        android:id="@+id/purchases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#fff"
+        android:text=">>   Purchases"
+        android:textColor="#80cbc4"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

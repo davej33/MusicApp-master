@@ -25,5 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        // Find info image view
+        ImageView trackInfo = (ImageView) findViewById(R.id.track_info);
+
+        // Set click listener
+        trackInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent trackInfoPage = new Intent(MainActivity.this, InfoPageActivity.class);
+                startActivity(trackInfoPage);
+            }
+        });
+
     }
 }
