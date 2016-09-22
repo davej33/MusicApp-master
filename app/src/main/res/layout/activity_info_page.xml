@@ -13,14 +13,18 @@
         android:layout_height="0dp"
         android:layout_weight="6">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/riseagainst" />
+            android:text="Track info page. Includes MenuSpinnerInfoPage class
+            to allow navigation through app."
+            android:background="#fff"
+
+             />
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="10dp">
@@ -38,66 +42,6 @@
                 android:background="@android:color/darker_gray" />
         </LinearLayout>
     </RelativeLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="32dp"
-        android:layout_weight="1"
-        android:background="#000"
-        android:gravity=""
-        android:text="Artist: Rise Against"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="32dp"
-        android:layout_weight="1"
-        android:background="#000"
-        android:gravity=""
-        android:text="Track: Give it All"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="32dp"
-        android:layout_weight="1"
-        android:background="#000"
-        android:gravity=""
-        android:text="Album: Siren Song of the Counter Culture"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="32dp"
-        android:layout_weight="1"
-        android:background="#000"
-        android:gravity=""
-        android:text="Release Date: November 2004"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="32dp"
-        android:layout_weight="1"
-        android:background="#000"
-        android:gravity=""
-        android:text="Label: Geffen"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 
 
 </LinearLayout>
